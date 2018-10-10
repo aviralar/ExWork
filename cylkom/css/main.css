@@ -3,11 +3,15 @@
     background: #aaa;
 }
 
+.jumbotron{
+    border-radius: 0px !important;
+}
+
 .bg-container{
-    height: 100vh;
-    background-size: auto;
+    height: 80vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
 
 .navbar{
