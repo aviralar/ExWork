@@ -1,0 +1,21 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.bg-container{
+    height: 100vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar{
+    background-color: none !important;
+    background: none !important;
+}
+
+.navbar-solid{
+    background: red !important;
+    background-color: red !important;
+}
