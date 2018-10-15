@@ -1,6 +1,5 @@
-.fakeimg {
-    height: 200px;
-    background: #aaa;
+.bg-aliceblue{
+    background: lightgrey;
 }
 
 .jumbotron{
@@ -12,14 +11,19 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center top;
+    background-attachment: fixed;
 }
 
 .navbar{
     background-color: none !important;
     background: none !important;
+    padding: 25px !important;
+    -webkit-transition: padding 0.5s, background 0.5s; /* Safari */
+    transition: padding 0.5s, background 0.5s;
 }
 
 .navbar-solid{
-    background: red !important;
-    background-color: red !important;
+    background: black !important;
+    background-color: black !important;
+    padding: 8px 16px 8px 16px !important;
 }
