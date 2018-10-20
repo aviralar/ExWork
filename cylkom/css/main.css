@@ -5,6 +5,7 @@ html, body{
 p{
     font-size: 0.8rem;
 }
+
 .bg-aliceblue{
     background: #f6f6f6;
 }
@@ -19,6 +20,10 @@ p{
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
+}
+
+.bg-aboutUs{
+    background: purple;
 }
 
 .navbar{
