@@ -1,5 +1,12 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+p{
+    font-size: 0.8rem;
+}
 .bg-aliceblue{
-    background: lightgrey;
+    background: #f6f6f6;
 }
 
 .jumbotron{
@@ -7,7 +14,7 @@
 }
 
 .bg-container{
-    height: 80vh;
+    height: 100vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -15,15 +22,26 @@
 }
 
 .navbar{
-    background-color: none !important;
-    background: none !important;
-    padding: 25px !important;
+    background-color: white !important;
+    background: white !important;
+    padding: 20px !important;
     -webkit-transition: padding 0.5s, background 0.5s; /* Safari */
     transition: padding 0.5s, background 0.5s;
 }
 
 .navbar-solid{
-    background: black !important;
-    background-color: black !important;
+    background: white !important;
+    background-color: white !important;
     padding: 8px 16px 8px 16px !important;
+}
+
+.appear-animation{
+    animation-name : appear;
+    animation-duration : 2s;
+    transition-timing-function: ease-out;
+}
+
+@keyframes appear{
+    from {transform: translateY(150px)}
+    to {transform: translateY(0px)}
 }

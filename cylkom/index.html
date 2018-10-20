@@ -8,13 +8,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="js/navbar.js"></script>
+  <script src="js/all.js"></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="#">Cylkom</a>
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top border">
+  <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,13 +37,13 @@
 </nav>
 
 <div class="jumbotron bg-container" style="margin-bottom:0; background-image:url('images/bg_concrete.jpg');">
-  <div class="row" style="margin-top: 7em;">
+  <div class="row appear-animation" style="margin-top: 7em;">
     <div class="col-md-12 text-center text-white">
       <h1>CYLKOM - "Always Digitally Active"</h1>
       <h4>Digital Media Agency</h4> 
     </div>
   </div>
-  <div class="row" style="margin-top: 7em;">
+  <div class="row appear-animation" style="margin-top: 7em;">
     <div class="col-md-12 text-center text-white">
       <p>Brand | Promotion | Reputation</p>
     </div>
@@ -50,18 +53,15 @@
 <div class="container" style="margin-top:30px">
   <div class="row mt-5">
     <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-4 text-right">
-          <hr style="border-top: 1px solid orangered;">
-        </div>
-        <div class="col-md-4 text-center">
+      <div class="row aboutUs">
+        <div class="col-md-12 text-center">
           <h2>Who We Are ?</h2>
         </div>
-        <div class="col-md-4 text-left">
-          <hr style="border-top: 1px solid orangered;">
+        <div class="col-md-12 text-center">
+          <img src="images/cross_line.png" alt="">
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row aboutUs mt-5">
         <div class="col-md-12 text-center text-justify">
           <p>We are India based Search Engine Marketing Firm offering Search Engine
               Optimization (SEO), Conversion based PPC Management and Social Media
@@ -82,45 +82,47 @@
           </p>
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row aboutUs mt-5">
         <div class="col-md-12 text-center">
-          <h4>
+          <h5>
             <span><img src="images/icon_quote1.png"></span> <br/>
-            Content Marketting is one of the most effective ways to promote your <br />
-            business online - but only when it's done right.<br/> 
-            - John Rampton<br />
+            <div class="mt-3">
+              Content Marketting is one of the most effective ways to promote your <br />
+            business online - but only when it's done right.<br/>
+            </div>
+             
+            <div class="mt-3"> - John Rampton</div><br />
             <span><img src="images/icon_quote2.png"></span>
-          </h4>
+          </h5>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid bg-aliceblue">
-  <div class="row">
+<div class="container-fluid mt-5">
+  <div class="row mt-3">
     <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-4 text-right">
-            <hr style="border-top: 1px solid orangered;">
-        </div>
-        <div class="col-md-4 text-center">
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
           <h2>Our Services</h2>
         </div>
-        <div class="col-md-4 text-left">
-            <hr style="border-top: 1px solid orangered;">
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-12 text-center">
+          <img src="images/cross_line.png" alt="">
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-md-12">
           <div class="row p-2">
             <div class="col-md-4">
               <div class="row p-2">
                 <div class="col-md-12 text-center">
-                  <img src="images/tile_icon_class.png" alt="" srcset="">
+                  <img src="images/tile_icon_book.png" alt="">
                 </div>
                 <div class="col-md-12 text-center">
-                  <h4>Online Digital Marketing Classes</h4>
+                  <h5>Online Digital Marketing Classes</h5>
                 </div>
                 <div class="col-md-12 text-center">
                   <p>We are ready to help you out in any manner
@@ -132,10 +134,10 @@
             <div class="col-md-4">
               <div class="row p-2">
                 <div class="col-md-12 text-center">
-                  <img src="images/tile_icon_class.png" alt="" srcset="">
+                  <img src="images/tile_icon_globe.png" alt="">
                 </div>
                 <div class="col-md-12 text-center">
-                  <h4>Brand Creation and Management</h4>
+                  <h5>Brand Creation and Management</h5>
                 </div>
                 <div class="col-md-12 text-center">
                   <p>We provide tile, tag line, or one liner visibiity at different platforms and almost
@@ -149,7 +151,7 @@
                   <img src="images/tile_icon_seo.png" alt="" srcset="">
                 </div>
                 <div class="col-md-12 text-center">
-                  <h4>Search Engine Optimisation (SEO)</h4>
+                  <h5>Search Engine Optimisation (SEO)</h5>
                 </div>
                 <div class="col-md-12 text-center">
                   <p>We provide result oriented SEO services. Here we do all necessary On page SEO 
@@ -181,7 +183,7 @@
                 <div class="col-md-4">
                   <div class="row p-2">
                     <div class="col-md-12 text-center">
-                      <img src="images/tile_icon_reputation.png" alt="" srcset="">
+                      <img src="images/tile_icon_award.png" alt="" srcset="">
                     </div>
                     <div class="col-md-12 text-center">
                       <h4>Online Reputation Management</h4>
@@ -272,36 +274,54 @@
   </div>
 </div>
 
-<div class="container" style="margin-top:30px">
-  <div class="row mt-5">
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <div class="row">
     <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-4 text-right">
-          <hr style="border-top: 1px solid orangered;">
-        </div>
+      <div class="row p-2">
+        
         <div class="col-md-4 text-center">
-          <h2>Why We Are ?</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img src="images/logo.jpg" alt="">
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-12 text-center">
+              <small>&copy; Cylkom 2018</small>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 text-left">
-          <hr style="border-top: 1px solid orangered;">
+
+        <div class="col-md-4 text-center">
+          <div class="row">
+            <div class="col-md-12 text-left">
+              <h6><i class="fas fa-mobile-alt"></i>&nbsp; &nbsp; &nbsp; +91-9629783070</h6>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-12 text-left">
+              <h6><i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp; &nbsp; Sector 8, Dwarka, New Delhi</h6>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-12 text-left">
+              <h6><i class="fas fa-envelope"></i>&nbsp; &nbsp; &nbsp; support@cylkom.com</h6>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-12 text-center text-justify">
-          <p>As we know digital era has come. Your customers are the lifeblood of your
-            business. Their needs and wants impact every aspect of your business, from
-            product development to content marketing to sales to customer services. So
-            everything has been shifted to manual to online, weather services, management
-            marketing etc.
-          </p>
+
+        <div class="col-md-4 text-center">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <button class="btn btn-info">Get in touch &nbsp; &nbsp;<i class="fas fa-chevron-circle-right"></i></button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
 </div>
 
 </body>
