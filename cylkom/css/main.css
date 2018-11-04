@@ -14,22 +14,31 @@ p{
     border-radius: 0px !important;
 }
 
-.bg-container{
-    height: 100vh;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
+.logo{
+    height: 70px;
+    width: 150px;
 }
 
-.bg-aboutUs{
-    background: purple;
+.bg-container{
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.bg-main-image{
+    background-image: url(../images/bg_concrete.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 .navbar{
     background-color: white !important;
     background: white !important;
-    padding: 20px !important;
+    padding: 25px !important;
     -webkit-transition: padding 0.5s, background 0.5s; /* Safari */
     transition: padding 0.5s, background 0.5s;
 }
@@ -59,8 +68,47 @@ p{
     padding-top: 50px;
 }
 
+#contactUs{
+    padding-top: 50px;
+}
+
 .footer{
     background: #333333;
     padding: 10px;
     color: lightgray;
+}
+
+.bg-services{
+    background: #ebf0f5;
+}
+
+.contactus-bgcolor{
+    background-color: #ffffff;
+}
+.logoFooter{
+    height: 150px;
+}
+
+#contactUs h6{
+    font-weight: bolder;
+}
+
+.tagline{
+    font-family: 'Damion', cursive;
+}
+
+/* services pages */
+.se-heading h1{
+    font-size: 72px;
+    font-weight: 600;
+    color: #efefef;
+}
+
+.se-description{
+    background: #ebf0f5;
+    color: black;
+}
+
+.se-description h1{
+    font-weight: bold;
 }

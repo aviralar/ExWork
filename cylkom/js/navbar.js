@@ -28,8 +28,11 @@ $(document).ready(function() {
     // Transition effect for navbar 
     $(window).scroll(function() {
       // checks if window is scrolled more than 500px, adds/removes solid class
+    if($(this).scrollTop() > 1000){
+        $('.scroll-contactUs').addClass('appear-animation');
+    }
     if($(this).scrollTop() > 700){
-        $('.services').addClass('appear-animation');
+        $('.scroll-services').addClass('appear-animation');
     }
     if($(this).scrollTop() > 120){
         $('.aboutUs').addClass('appear-animation');

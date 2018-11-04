@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>CYLKOM</title>
+  <title>CYLKOM - "Always Digitally Active"</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
   <script src="js/navbar.js"></script>
   <script src="js/all.js"></script>
   <link rel="stylesheet" href="css/main.css">
@@ -18,7 +19,7 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top border">
-  <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt=""></a>
+  <a class="navbar-brand" href="index.html"><img  class="logo" src="images/logo.png" alt="Cylkom"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -30,26 +31,39 @@
       <li class="nav-item">
         <a class="nav-link" href="#aboutUs">About Us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#services">Services</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Services</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="brandManagement.html"><p>Brand Creation and Management</p></a>
+          <a class="dropdown-item" href="seo.html"><p>Search Engine Optimization</p></a>
+          <a class="dropdown-item" href="socialMediaManagement.html"><p>Social Media Management</p></a>
+          <a class="dropdown-item" href="onlineReputation.html"><p>Online Reputation Management</p></a>
+          <a class="dropdown-item" href="contentMarketing.html"><p>Content Marketing and Blogging</p></a>
+          <a class="dropdown-item" href="affliatemarketing.html"><p>Affliate Marketing</p></a>
+          <a class="dropdown-item" href="portfolioCreation.html"><p>Portfolio Creation</p></a>
+          <a class="dropdown-item" href="googleAdsPpc.html"><p>Google Adwords PPC</p></a>
+        </div>
       </li>
       <li class="nav-item">
+        <a href="blogs.html" class="nav-link">Blogs</a>
+      </li>
+      <li class="nav-item mr-3">
         <a href="#contactUs" class="nav-link">Contact Us</a>
       </li>
     </ul>
   </div>  
 </nav>
 
-<div id="home" class="jumbotron bg-container" style="margin-bottom:0; background-image:url('images/bg_concrete.jpg');">
+<div id="home" class="jumbotron bg-container bg-main-image">
   <div class="row appear-animation" style="margin-top: 7em;">
     <div class="col-md-12 text-center text-white">
-      <h1>CYLKOM - "Always Digitally Active"</h1>
-      <h4>Digital Media Agency</h4> 
+      <h2>CYLKOM - <span class="tagline">"Always Digitally Active"</span></h2>
+      <h6>Digital Media Agency</h6> 
     </div>
   </div>
   <div class="row appear-animation" style="margin-top: 7em;">
     <div class="col-md-12 text-center text-white">
-      <p>Brand | Promotion | Reputation</p>
+      <h4>Brand | Promotion | Reputation</h4>
     </div>
   </div>
 </div>
@@ -104,8 +118,8 @@
   </div>
 </div>
 
-<div id="services" class="container-fluid services mt-5">
-  <div class="row mt-3">
+<div id="services" class="container-fluid services mt-5 bg-services">
+  <div class="row scroll-services mt-3">
     <div class="col-md-12">
       <div class="row mt-5">
         <div class="col-md-12 text-center">
@@ -123,10 +137,10 @@
             <div class="col-md-4">
               <div class="row p-2">
                 <div class="col-md-12 text-center">
-                  <img src="images/tile_icon_book.png" alt="">
+                 <img src="images/tile_icon_book.png" alt="">
                 </div>
                 <div class="col-md-12 text-center">
-                  <h5>Online Digital Marketing Classes</h5>
+                  <h5 class="mt-3">Online Digital Marketing Classes</h5>
                 </div>
                 <div class="col-md-12 text-center">
                   <p>We are ready to help you out in any manner
@@ -138,10 +152,10 @@
             <div class="col-md-4">
               <div class="row p-2">
                 <div class="col-md-12 text-center">
-                  <img src="images/tile_icon_globe.png" alt="">
+                 <a href="brandManagement.html"> <img src="images/tile_icon_globe.png" alt="Brand Management"></a>
                 </div>
                 <div class="col-md-12 text-center">
-                  <h5>Brand Creation and Management</h5>
+                  <h5 class="mt-3">Brand Creation and Management</h5>
                 </div>
                 <div class="col-md-12 text-center">
                   <p>We provide tile, tag line, or one liner visibiity at different platforms and almost
@@ -152,10 +166,10 @@
             <div class="col-md-4">
               <div class="row p-2">
                 <div class="col-md-12 text-center">
-                  <img src="images/tile_icon_seo.png" alt="" srcset="">
+                  <a href="seo.html"><img src="images/tile_icon_seo.png" alt="SEO"></a>
                 </div>
                 <div class="col-md-12 text-center">
-                  <h5>Search Engine Optimisation (SEO)</h5>
+                  <h5 class="mt-3">Search Engine Optimisation (SEO)</h5>
                 </div>
                 <div class="col-md-12 text-center">
                   <p>We provide result oriented SEO services. Here we do all necessary On page SEO 
@@ -172,10 +186,10 @@
                 <div class="col-md-4">
                   <div class="row p-2">
                     <div class="col-md-12 text-center">
-                      <img src="images/tile_icon_social.png" alt="" srcset="">
+                      <a href="socialMediaManagement.html"><img src="images/tile_icon_social.png" alt="Social Media"></a>
                     </div>
                     <div class="col-md-12 text-center">
-                      <h4>Social Media Management</h4>
+                      <h5 class="mt-3">Social Media Management</h5>
                     </div>
                     <div class="col-md-12 text-center">
                       <p>We will make you strongly visible at all major social media platforms
@@ -187,10 +201,10 @@
                 <div class="col-md-4">
                   <div class="row p-2">
                     <div class="col-md-12 text-center">
-                      <img src="images/tile_icon_award.png" alt="" srcset="">
+                      <a href="onlineReputation.html"><img src="images/tile_icon_award.png" alt="Online Reputation"></a>
                     </div>
                     <div class="col-md-12 text-center">
-                      <h4>Online Reputation Management</h4>
+                      <h5 class="mt-3">Online Reputation Management</h5>
                     </div>
                     <div class="col-md-12 text-center">
                       <p>ORM is very important for any business. It reflects your brand image
@@ -202,10 +216,10 @@
                 <div class="col-md-4">
                   <div class="row p-2">
                     <div class="col-md-12 text-center">
-                      <img src="images/tile_icon_blogging.png" alt="" srcset="">
+                      <a href="contentMarketing.html"><img src="images/tile_icon_blogging.png" alt="Blogging"></a>
                     </div>
                     <div class="col-md-12 text-center">
-                      <h4>Content Marketing / Blogging </h4>
+                      <h5 class="mt-3">Content Marketing / Blogging </h5>
                     </div>
                     <div class="col-md-12 text-center">
                       <p>"Content is the king". Its a great and right phrase in digital marketing.
@@ -225,10 +239,10 @@
                 <div class="col-md-4">
                   <div class="row p-2">
                     <div class="col-md-12 text-center">
-                    <img src="images/tile_icon_affiliate.png" alt="">
+                    <a href="affliatemarketing.html"><img src="images/tile_icon_affiliate.png" alt="Affliate Marketing"></a>
                     </div>
                     <div class="col-md-12 text-center">
-                      <h4>Affliate Marketing</h4>
+                      <h5 class="mt-3">Affliate Marketing</h5>
                     </div>
                     <div class="col-md-12 text-center">
                      <p>Now marketing trend has been changed. Affliate marketing also provide
@@ -240,10 +254,10 @@
                 <div class="col-md-4">
                   <div class="row p-2">
                     <div class="col-md-12 text-center">
-                      <img src="images/tile_icon_portfolio.png" alt="">
+                      <a href="portfolioCreation.html"><img src="images/tile_icon_portfolio.png" alt="Portfolio Creation"></a>
                     </div>
                     <div class="col-md-12 text-center">
-                      <h4>Portfolio Creation</h4>
+                      <h5 class="mt-3">Portfolio Creation</h5>
                     </div>
                     <div class="col-md-12 text-center">
                      <p>We also provide portfolio creation and online visibility on social
@@ -255,10 +269,10 @@
                 <div class="col-md-4">
                   <div class="row p-2">
                     <div class="col-md-12 text-center">
-                      <img src="images/tile_icon_adds.png" alt="">
+                      <a href="googleAdsPpc.html"><img src="images/tile_icon_adds.png" alt="Google Ads"></a>
                     </div>
                     <div class="col-md-12 text-center">
-                      <h4>Google Adwords - PPC</h4>
+                      <h5 class="mt-3">Google Adwords - PPC</h5>
                     </div>
                     <div class="col-md-12 text-center">
                       <p>Its paid advertising services offered by Google Ads. Here we run 
@@ -278,16 +292,16 @@
   </div>
 </div>
 
-<div id="contactUs" class="container-fluid text-center" style="margin-bottom:0; background: lightgrey;">
-  <div class="row">
+<div id="contactUs" class="container-fluid text-center contactus-bgcolor" style="margin-bottom:0;">
+  <div class="row scroll-contactUs">
     <div class="col-md-12">
       <div class="row p-2">
 
-        <div class="col-md-3">
-          <img src="images/logo.jpg" alt="">
+        <div class="col-md-4">
+          <img class="logoFooter" src="images/logo.png" alt="">
         </div>
         
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
           <div class="row">
             <div class="col-md-12 text-left">
               <h6>Get in touch: </h6>
@@ -304,7 +318,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
           <div class="row">
             <div class="col-md-12 text-left">
               <h6>Branches: </h6>
@@ -315,11 +329,11 @@
               <p>New Delhi, India</p>
               <hr>
               <p>Lucknow, India</p>
+              <hr>
+              <button class="btn btn-danger"><a style="text-decoration: none; color: white;" href="mailto:info@cylkom.com"> Get In Touch</a></button>
             </div>
           </div>
         </div>
-
-        <div class="col-md-3"></div>
 
       </div>
     </div>
